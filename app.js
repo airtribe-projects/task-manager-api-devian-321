@@ -84,7 +84,7 @@ app.post('/tasks', (req, res) => {
 
     }
     TASKS.push(newTask)
-    console.log(TASKS)
+    // console.log(TASKS)
     res.status(201).json(newTask)
 
 });
